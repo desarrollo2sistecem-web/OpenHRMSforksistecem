@@ -20,3 +20,10 @@
 ##### MIGRATION
 - Odoo's own hr.contract.type (hr) replaces the model, views and menu of this
   module; only the "Employee Category" (type_id) of contracts is kept.
+
+#### 02.11.2026
+#### Version 18.0.1.0.1
+##### ADD
+- Contract types can be archived (Active field, Archived filter and toggle in
+  Employees > Configuration > Employment Types); archived types are no longer
+  offered on contracts.
